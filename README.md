@@ -8,6 +8,7 @@ Site vitrine bilingue (FR/EN) de vulgarisation de la calisthénie. Statique, san
 
 - **Accueil** — définition, méthode en trois étages (bases → statique → dynamique), bénéfices.
 - **Les bases** — six fiches techniques : pompe, traction australienne, dips, squat, fente, gainage. Exécution, respiration, erreurs, régression, progression.
+- **Méthodes** — neuf façons de structurer l'entraînement : circuits, rep & set, GTG, push / pull, force / street lifting, endurance, freestyle / combos, EMOM, pyramide.
 - **Statique** — L-sit, planche, front lever : ce que c'est, prérequis, pourquoi ça attend (V2).
 - **Dynamique** — muscle-up, handstand, transitions (V3).
 - **À propos** — intention, disclaimer santé, crédits, mentions légales.
@@ -18,8 +19,8 @@ Le cahier des charges de référence est [`CDC-Calisthenix-Lab.md`](./CDC-Calist
 
 ```
 .
-├── index.html / bases.html / statique.html / dynamique.html / a-propos.html
-├── en/                  # miroir anglais (index, bases, static, dynamic, about)
+├── index.html / bases.html / methodes.html / statique.html / dynamique.html / a-propos.html
+├── en/                  # miroir anglais (index, bases, methods, static, dynamic, about)
 ├── css/style.css        # feuille unique, tokens clair/sombre
 ├── js/main.js           # bascule de thème (localStorage)
 ├── assets/fonts/        # Archivo Black + Inter (woff2, auto-hébergées)
@@ -44,10 +45,16 @@ Sombre par défaut. Le bouton bascule clair/sombre et mémorise le choix dans `l
 
 ## Déploiement
 
-GitHub Pages, branche `main`, racine du dépôt. Tout est relatif : le site fonctionne aussi dans un sous-chemin.
+GitHub Pages, branche `gh-pages`, racine de la branche. Tout est relatif : le site fonctionne aussi dans un sous-chemin.
+
+Un push sur `main` ne publie rien. Pour publier, recopier le site sur `gh-pages` :
 
 ```bash
-git push origin main
+git checkout gh-pages
+git checkout main -- index.html bases.html methodes.html statique.html dynamique.html a-propos.html en css js assets favicon.svg sitemap.xml robots.txt llms.txt .nojekyll
+git commit -am "Publish site"
+git push origin gh-pages
+git checkout -f main
 ```
 
 ## Licence
