@@ -9,6 +9,7 @@
 - [Méthodes / Methods](https://calurion-dev.github.io/Calisthenix-Lab/methodes.html): neuf méthodes d'entraînement (circuits, rep & set, GTG, push / pull, street lifting, endurance, freestyle, EMOM, pyramide).
 - [Statique / Static](https://calurion-dev.github.io/Calisthenix-Lab/statique.html): L-sit, planche, front lever — prérequis et teasing V2.
 - [Dynamique / Dynamic](https://calurion-dev.github.io/Calisthenix-Lab/dynamique.html): muscle-up, handstand, transitions — teasing V3.
+- [Intensifications / Intensification](https://calurion-dev.github.io/Calisthenix-Lab/intensifications.html): dégressif, tempo, pause / hold et temps de repos — quand les appliquer.
 - [À propos / About](https://calurion-dev.github.io/Calisthenix-Lab/a-propos.html): intention, disclaimer santé, crédits, mentions légales.
 
 ## Notes
