@@ -7,7 +7,7 @@ Site vitrine bilingue (FR/EN) de vulgarisation de la calisthénie. Statique, san
 ## Contenu
 
 - **Accueil** — définition, méthode en trois étages (bases → statique → dynamique), bénéfices.
-- **Les bases** — six fiches techniques : pompe, traction australienne, dips, squat, fente, gainage. Exécution, respiration, erreurs, régression, progression.
+- **Les bases** — cinq fiches techniques : pompes, tractions, dips, pistol squat, gainage. Exécution, respiration, erreurs, régression, progression.
 - **Méthodes** — neuf façons de structurer l'entraînement : circuits, rep & set, GTG, push / pull, force / street lifting, endurance, freestyle / combos, EMOM, pyramide.
 - **Statique** — L-sit, planche, front lever : ce que c'est, prérequis, pourquoi ça attend (V2).
 - **Dynamique** — muscle-up, handstand, transitions (V3).
@@ -24,7 +24,7 @@ Le cahier des charges de référence est [`CDC-Calisthenix-Lab.md`](./CDC-Calist
 ├── css/style.css        # feuille unique, tokens clair/sombre
 ├── js/main.js           # bascule de thème (localStorage)
 ├── assets/fonts/        # Archivo Black + Inter (woff2, auto-hébergées)
-├── assets/img/          # illustrations SVG des six mouvements + image OG
+├── assets/img/          # illustrations SVG des cinq mouvements + image OG
 ├── sitemap.xml / robots.txt / llms.txt
 └── favicon.svg
 ```

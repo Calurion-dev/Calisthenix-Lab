@@ -160,16 +160,15 @@ La **calisthénie** (du grec *kallos* = beauté, *sthenos* = force) désigne l'e
 
 **Intro** (150 mots) : pourquoi les bases sont non-négociables (articulations, gainage, prévention).
 
-**6 fiches exos** (même template, ancre `#pompe`, etc.) :
+**5 fiches exos** (même template, ancre `#pompe`, etc.) :
 
 | #   | Exo                                                                           | Focus                      | Matériel                 |
 | --- | ----------------------------------------------------------------------------- | -------------------------- | ------------------------ |
-| 1   | Pompe (push-up)                                                               | Poussée horizontale        | Sol                      |
-| 2   | Tirage / Traction australienne (si pas de barre : tirage serviette/élastique) | Tirage horizontal/vertical | Barre ou table/élastique |
+| 1   | Pompes (push-up)                                                              | Poussée horizontale        | Sol                      |
+| 2   | Tractions (pull-up)                                                           | Tirage vertical            | Barre haute              |
 | 3   | Dips (ou pompes serrées si pas de support)                                    | Poussée verticale          | Banc / chaises           |
-| 4   | Squat poids du corps                                                          | Jambes                     | Sol                      |
-| 5   | Fente avant                                                                   | Jambes unilatéral          | Sol                      |
-| 6   | Gainage planche                                                               | Core                       | Sol                      |
+| 4   | Pistol squat                                                                  | Jambes unilatéral          | Sol                      |
+| 5   | Gainage planche                                                               | Core                       | Sol                      |
 
 **Template fiche** :
 
@@ -391,7 +390,7 @@ Calisthenix-Lab/
 - [ ] 10 pages HTML livrées (5 FR + 5 EN) dans l'arborescence §9.2
 - [ ] Thème sombre par défaut, toggle clair fonctionnel + persistance `localStorage` + respect `prefers-color-scheme`
 - [ ] Switch FR/EN fonctionnel avec `hreflang` + `canonical`
-- [ ] 6 fiches bases complètes FR/EN avec template §6.3
+- [ ] 5 fiches bases complètes FR/EN avec template §6.3
 - [ ] Pages statique/dynamique en mode teasing (pas de tuto incomplet)
 - [ ] Lighthouse > 90 Perf / 100 A11y / 100 SEO sur `/` et `/bases.html` (mobile + desktop)
 - [ ] Navigation clavier OK, contraste AA, `alt` présents, `h1` unique
