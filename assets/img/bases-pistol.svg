@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img" aria-labelledby="fig-pistol">
+  <title id="fig-pistol">Schéma technique d'un pistol squat, vue de profil : une jambe fléchie, l'autre tendue devant</title>
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#1a222c" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="480" height="360" fill="#0f1318"/>
+  <rect width="480" height="360" fill="url(#grid)"/>
+  <path d="M20 34V20h14M460 34V20h-14M20 326v14h14M460 326v14h-14" fill="none" stroke="#ff8a3d" stroke-width="2" opacity=".55"/>
+  <path d="M40 330h400" stroke="#2b3540" stroke-width="2"/>
+  <g fill="none" stroke="#e9eff6" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M252 268 322 274 388 278"/>
+    <path d="M388 278l18-6"/>
+    <path d="M252 268 306 292 286 324"/>
+    <path d="M268 326h34"/>
+    <path d="M252 268 246 200"/>
+    <path d="M246 200 300 206 346 210"/>
+    <path d="M246 206 298 218 342 226"/>
+    <circle cx="240" cy="180" r="16"/>
+  </g>
+  <g fill="#ff8a3d">
+    <circle cx="252" cy="268" r="5"/>
+    <circle cx="306" cy="292" r="5"/>
+    <circle cx="286" cy="324" r="5"/>
+    <circle cx="322" cy="274" r="5"/>
+    <circle cx="388" cy="278" r="5"/>
+    <circle cx="246" cy="200" r="5"/>
+  </g>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img" aria-labelledby="fig-tractions">
+  <title id="fig-tractions">Schéma technique d'une traction à la barre haute, vue de face</title>
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#1a222c" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="480" height="360" fill="#0f1318"/>
+  <rect width="480" height="360" fill="url(#grid)"/>
+  <path d="M20 34V20h14M460 34V20h-14M20 326v14h14M460 326v14h-14" fill="none" stroke="#ff8a3d" stroke-width="2" opacity=".55"/>
+  <path d="M40 330h400" stroke="#2b3540" stroke-width="2"/>
+  <path d="M110 64h260" stroke="#ff8a3d" stroke-width="9" stroke-linecap="round"/>
+  <g fill="none" stroke="#e9eff6" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M190 64 196 108 214 148"/>
+    <path d="M290 64 284 108 266 148"/>
+    <path d="M214 148h52"/>
+    <path d="M240 148v86"/>
+    <path d="M222 234 208 284 208 324"/>
+    <path d="M258 234 272 284 272 324"/>
+    <path d="M194 324h28"/>
+    <path d="M258 324h28"/>
+    <circle cx="240" cy="126" r="16"/>
+  </g>
+  <g fill="#ff8a3d">
+    <circle cx="190" cy="64" r="5"/>
+    <circle cx="290" cy="64" r="5"/>
+    <circle cx="196" cy="108" r="5"/>
+    <circle cx="284" cy="108" r="5"/>
+    <circle cx="240" cy="234" r="5"/>
+  </g>
+</svg>
