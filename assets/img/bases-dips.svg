@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img" aria-labelledby="fig-dips">
+  <title id="fig-dips">Schéma technique de dips entre deux barres parallèles, vue de face</title>
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#1a222c" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="480" height="360" fill="#0f1318"/>
+  <rect width="480" height="360" fill="url(#grid)"/>
+  <path d="M20 34V20h14M460 34V20h-14M20 326v14h14M460 326v14h-14" fill="none" stroke="#ff8a3d" stroke-width="2" opacity=".55"/>
+  <g stroke="#2b3540" stroke-width="6" stroke-linecap="round">
+    <path d="M100 210v96M380 210v96"/>
+  </g>
+  <g stroke="#ff8a3d" stroke-width="10" stroke-linecap="round">
+    <path d="M100 210h105M275 210h105"/>
+  </g>
+  <g fill="none" stroke="#e9eff6" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M205 235v-25M275 235v-25"/>
+    <path d="M205 235h70v65"/>
+    <path d="M240 300l-35 25 10 25M240 300l35 25-10 25"/>
+    <path d="M240 232v-25"/>
+    <circle cx="240" cy="190" r="17"/>
+  </g>
+  <g fill="#ff8a3d">
+    <circle cx="205" cy="235" r="5"/>
+    <circle cx="275" cy="235" r="5"/>
+    <circle cx="240" cy="300" r="5"/>
+  </g>
+</svg>
