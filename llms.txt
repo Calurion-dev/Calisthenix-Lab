@@ -6,6 +6,7 @@
 
 - [Accueil / Home](https://calurion-dev.github.io/Calisthenix-Lab/): définition, méthode en trois étages, bénéfices.
 - [Les bases / Fundamentals](https://calurion-dev.github.io/Calisthenix-Lab/bases.html): six fiches techniques (pompe, traction australienne, dips, squat, fente, gainage).
+- [Méthodes / Methods](https://calurion-dev.github.io/Calisthenix-Lab/methodes.html): neuf méthodes d'entraînement (circuits, rep & set, GTG, push / pull, street lifting, endurance, freestyle, EMOM, pyramide).
 - [Statique / Static](https://calurion-dev.github.io/Calisthenix-Lab/statique.html): L-sit, planche, front lever — prérequis et teasing V2.
 - [Dynamique / Dynamic](https://calurion-dev.github.io/Calisthenix-Lab/dynamique.html): muscle-up, handstand, transitions — teasing V3.
 - [À propos / About](https://calurion-dev.github.io/Calisthenix-Lab/a-propos.html): intention, disclaimer santé, crédits, mentions légales.
