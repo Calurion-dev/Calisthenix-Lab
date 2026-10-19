@@ -599,6 +599,77 @@ strong {
   color: var(--text);
 }
 
+.def-wide {
+  grid-column: 1 / -1;
+}
+
+.def-intro {
+  max-width: 78ch;
+}
+
+.variant-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-top: 16px;
+}
+
+.variant {
+  padding-right: 22px;
+}
+
+.variant + .variant {
+  padding-left: 22px;
+  border-left: 1px solid var(--edge);
+}
+
+.variant h4 {
+  margin: 0 0 6px;
+  font-family: var(--font-body);
+  font-size: 0.98rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--text);
+}
+
+.variant p {
+  font-size: 0.9rem;
+}
+
+.variant .memo {
+  margin-top: 10px;
+  padding-left: 10px;
+  border-left: 2px solid var(--accent);
+  font-size: 0.82rem;
+}
+
+.variant .memo b {
+  display: block;
+  margin-bottom: 2px;
+  color: var(--accent-ink);
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+@media (max-width: 720px) {
+  .variant-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .variant {
+    padding-right: 0;
+  }
+
+  .variant + .variant {
+    margin-top: 16px;
+    padding-top: 16px;
+    padding-left: 0;
+    border-top: 1px solid var(--edge);
+    border-left: 0;
+  }
+}
+
 /* ---------- Parcours ---------- */
 .path {
   display: grid;
