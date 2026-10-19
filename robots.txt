@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://calurion-dev.github.io/Calisthenix-Lab/sitemap.xml

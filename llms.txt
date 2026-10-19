@@ -1,0 +1,16 @@
+# Calisthenix-Lab
+
+> Bilingual (FR/EN) educational site about calisthenics: definitions, benefits, and six fundamental bodyweight movements with execution criteria, common mistakes, regressions and progressions. Static HTML/CSS/JS, no account, no cookies.
+
+## Pages
+
+- [Accueil / Home](https://calurion-dev.github.io/Calisthenix-Lab/): définition, méthode en trois étages, bénéfices.
+- [Les bases / Fundamentals](https://calurion-dev.github.io/Calisthenix-Lab/bases.html): six fiches techniques (pompe, traction australienne, dips, squat, fente, gainage).
+- [Statique / Static](https://calurion-dev.github.io/Calisthenix-Lab/statique.html): L-sit, planche, front lever — prérequis et teasing V2.
+- [Dynamique / Dynamic](https://calurion-dev.github.io/Calisthenix-Lab/dynamique.html): muscle-up, handstand, transitions — teasing V3.
+- [À propos / About](https://calurion-dev.github.io/Calisthenix-Lab/a-propos.html): intention, disclaimer santé, crédits, mentions légales.
+
+## Notes
+
+- Content is original and educational, not medical advice.
+- No tracking, no cookies, no personal data collection.
