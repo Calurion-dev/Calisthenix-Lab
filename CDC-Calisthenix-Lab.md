@@ -12,8 +12,8 @@
 | **Nom du projet**        | **Calisthenix-Lab**                                                                                                   |
 | **Nature**               | Site web vitrine / pédagogique — 100 % informatif                                                                     |
 | **Objectif principal**   | Mettre en avant la calisthénie et présenter différentes façons de s'entraîner, en vulgarisant pour un public débutant |
-| **Porteur**              | Lucas                                                                                                                 |
-| **Dossier de livraison** | `C:\Users\lucas\Documents\6.Opencode\Calisthenix-Lab`                                                                 |
+| **Porteur**              | Calurion                                                                                                              |
+| **Dossier de livraison** | `Documents\6.Opencode\Calisthenix-Lab`                                                                                |
 | **Stack cible**          | HTML / CSS / JS vanilla — architecture simple, sans framework, sans build obligatoire                                 |
 | **Hors-scope V1**        | Générateur de programmes (existant dans `calicoach`, non repris), espace membre, e-commerce, coaching                 |
 
