@@ -1344,7 +1344,7 @@ strong {
   }
 }
 
-@media (max-width: 860px) {
+@media (max-width: 980px) {
   .header-inner {
     flex-wrap: wrap;
     gap: 10px 20px;
