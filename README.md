@@ -13,7 +13,7 @@ Site vitrine bilingue (FR/EN) de vulgarisation de la calisthénie. Statique, san
 - **Intensifications** — dégressif, tempo, pause / hold et temps de repos : quatre leviers pour rendre une série plus exigeante.
 - **Alimentation** — l'assiette 50/25/25 : légumes et fruits, glucides, protéines et lipides. Un repère visuel, pas un régime.
 - **Statique** — L-sit, planche, front lever : guides complets (prérequis chiffrés, muscles, progressions, erreurs, sécurité, fréquence).
-- **Dynamique** — muscle-up, handstand, transitions (V3).
+- **Dynamique** — muscle-up, handstand, transitions : guides complets (prérequis, muscles, progressions, erreurs, sécurité, fréquence).
 - **À propos** — intention, disclaimer santé, crédits, mentions légales.
 
 Le cahier des charges de référence est [`CDC-Calisthenix-Lab.md`](./CDC-Calisthenix-Lab.md).
