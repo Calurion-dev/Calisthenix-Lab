@@ -11,6 +11,7 @@
 - [Dynamique / Dynamic](https://calurion-dev.github.io/Calisthenix-Lab/dynamique.html): muscle-up, handstand, transitions — guides complets (prérequis, muscles, progressions, erreurs, sécurité, fréquence).
 - [Intensifications / Intensification](https://calurion-dev.github.io/Calisthenix-Lab/intensifications.html): dégressif, tempo, pause / hold et temps de repos — quand les appliquer.
 - [Alimentation / Nutrition](https://calurion-dev.github.io/Calisthenix-Lab/alimentation.html): l'assiette 50 % légumes et fruits, 25 % glucides, 25 % protéines et lipides.
+- [Matériel / Equipment](https://calurion-dev.github.io/Calisthenix-Lab/materiel.html): barre de traction et barres de dips en priorité ; anneaux, magnésie, ceinture de lest et autres options selon le niveau.
 - [À propos / About](https://calurion-dev.github.io/Calisthenix-Lab/a-propos.html): intention, disclaimer santé, crédits, mentions légales.
 
 ## Notes
