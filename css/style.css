@@ -599,18 +599,28 @@ strong {
   color: var(--text);
 }
 
-.def-wide {
-  grid-column: 1 / -1;
+.variants-panel {
+  padding: clamp(22px, 3vw, 32px);
+  background: var(--panel);
+  border: 1px solid var(--edge);
+  border-radius: var(--radius);
 }
 
-.def-intro {
+.variants-intro {
   max-width: 78ch;
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.97rem;
+}
+
+.variants-intro strong {
+  color: var(--text);
 }
 
 .variant-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  margin-top: 16px;
+  margin-top: 20px;
 }
 
 .variant {
@@ -622,7 +632,7 @@ strong {
   border-left: 1px solid var(--edge);
 }
 
-.variant h4 {
+.variant h3 {
   margin: 0 0 6px;
   font-family: var(--font-body);
   font-size: 0.98rem;
@@ -632,7 +642,16 @@ strong {
 }
 
 .variant p {
+  color: var(--muted);
   font-size: 0.9rem;
+}
+
+.variant p strong {
+  color: var(--text);
+}
+
+.variant p:last-child {
+  margin-bottom: 0;
 }
 
 .variant .memo {
