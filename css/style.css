@@ -671,6 +671,54 @@ strong {
   text-transform: uppercase;
 }
 
+.rir-note {
+  margin-top: 24px;
+  padding-top: 20px;
+  border-top: 1px solid var(--edge);
+}
+
+.rir-note h3 {
+  margin: 0 0 6px;
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--text);
+}
+
+.rir-note p {
+  max-width: 78ch;
+  margin-bottom: 8px;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.rir-list {
+  display: grid;
+  gap: 4px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.rir-list li {
+  position: relative;
+  padding-left: 16px;
+}
+
+.rir-list li::before {
+  content: "—";
+  position: absolute;
+  left: 0;
+  color: var(--accent-ink);
+}
+
+.rir-list strong {
+  color: var(--text);
+}
+
 @media (max-width: 720px) {
   .variant-grid {
     grid-template-columns: minmax(0, 1fr);
