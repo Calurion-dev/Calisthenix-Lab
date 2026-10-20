@@ -10,6 +10,7 @@
 - [Statique / Static](https://calurion-dev.github.io/Calisthenix-Lab/statique.html): L-sit, planche, front lever — prérequis et teasing V2.
 - [Dynamique / Dynamic](https://calurion-dev.github.io/Calisthenix-Lab/dynamique.html): muscle-up, handstand, transitions — teasing V3.
 - [Intensifications / Intensification](https://calurion-dev.github.io/Calisthenix-Lab/intensifications.html): dégressif, tempo, pause / hold et temps de repos — quand les appliquer.
+- [Alimentation / Nutrition](https://calurion-dev.github.io/Calisthenix-Lab/alimentation.html): l'assiette 50 % légumes et fruits, 25 % glucides, 25 % protéines et lipides.
 - [À propos / About](https://calurion-dev.github.io/Calisthenix-Lab/a-propos.html): intention, disclaimer santé, crédits, mentions légales.
 
 ## Notes

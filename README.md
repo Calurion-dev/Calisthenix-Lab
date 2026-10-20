@@ -11,6 +11,7 @@ Site vitrine bilingue (FR/EN) de vulgarisation de la calisthénie. Statique, san
 - **Méthodes** — neuf façons de structurer l'entraînement : circuits, rep & set, GTG, push / pull, force / street lifting, endurance, freestyle / combos, EMOM, pyramide.
 - **Échauffement & étirements** — page de préparation : échauffement avant la séance et retour au calme (contenu à venir).
 - **Intensifications** — dégressif, tempo, pause / hold et temps de repos : quatre leviers pour rendre une série plus exigeante.
+- **Alimentation** — l'assiette 50/25/25 : légumes et fruits, glucides, protéines et lipides. Un repère visuel, pas un régime.
 - **Statique** — L-sit, planche, front lever : ce que c'est, prérequis, pourquoi ça attend (V2).
 - **Dynamique** — muscle-up, handstand, transitions (V3).
 - **À propos** — intention, disclaimer santé, crédits, mentions légales.
@@ -21,8 +22,8 @@ Le cahier des charges de référence est [`CDC-Calisthenix-Lab.md`](./CDC-Calist
 
 ```
 .
-├── index.html / bases.html / methodes.html / statique.html / dynamique.html / echauffement-etirements.html / intensifications.html / a-propos.html
-├── en/                  # miroir anglais (index, bases, methods, static, dynamic, warm-up-stretching, intensifications, about)
+├── index.html / bases.html / methodes.html / statique.html / dynamique.html / echauffement-etirements.html / intensifications.html / alimentation.html / a-propos.html
+├── en/                  # miroir anglais (index, bases, methods, static, dynamic, warm-up-stretching, intensifications, nutrition, about)
 ├── css/style.css        # feuille unique, tokens clair/sombre
 ├── js/main.js           # bascule de thème (localStorage)
 ├── assets/fonts/        # Archivo Black + Inter (woff2, auto-hébergées)

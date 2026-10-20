@@ -57,6 +57,14 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://calurion-dev.github.io/Calisthenix-Lab/alimentation.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://calurion-dev.github.io/Calisthenix-Lab/alimentation.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://calurion-dev.github.io/Calisthenix-Lab/en/nutrition.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://calurion-dev.github.io/Calisthenix-Lab/alimentation.html"/>
+    <lastmod>2026-10-20</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://calurion-dev.github.io/Calisthenix-Lab/a-propos.html</loc>
     <xhtml:link rel="alternate" hreflang="fr" href="https://calurion-dev.github.io/Calisthenix-Lab/a-propos.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://calurion-dev.github.io/Calisthenix-Lab/en/about.html"/>
@@ -119,6 +127,14 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://calurion-dev.github.io/Calisthenix-Lab/intensifications.html"/>
     <lastmod>2026-10-19</lastmod>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://calurion-dev.github.io/Calisthenix-Lab/en/nutrition.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://calurion-dev.github.io/Calisthenix-Lab/alimentation.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://calurion-dev.github.io/Calisthenix-Lab/en/nutrition.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://calurion-dev.github.io/Calisthenix-Lab/alimentation.html"/>
+    <lastmod>2026-10-20</lastmod>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://calurion-dev.github.io/Calisthenix-Lab/en/about.html</loc>
