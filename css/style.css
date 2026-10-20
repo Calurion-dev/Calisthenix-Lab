@@ -298,7 +298,7 @@ strong {
 
 .site-nav {
   display: flex;
-  gap: clamp(14px, 2vw, 26px);
+  gap: clamp(10px, 1.2vw, 16px);
   margin-left: auto;
 }
 
@@ -861,6 +861,127 @@ strong {
   margin-top: 10px;
 }
 
+/* ---------- Assiette / alimentation ---------- */
+.plate-panel {
+  max-width: 720px;
+  margin: 0 auto clamp(32px, 5vw, 56px);
+  padding: clamp(22px, 4vw, 38px);
+  border: 1px solid var(--edge);
+  border-radius: var(--radius);
+  background: var(--panel);
+}
+
+.plate {
+  display: block;
+  width: min(400px, 100%);
+  height: auto;
+  margin: 0 auto clamp(20px, 3vw, 28px);
+  --veg: #3ddc97;
+  --carb: #ff8a3d;
+  --rest: #b9c4ce;
+}
+
+.plate .rim {
+  fill: var(--bg);
+  stroke: var(--edge);
+  stroke-width: 2;
+}
+
+.plate .seg-veg {
+  fill: var(--veg);
+}
+
+.plate .seg-carb {
+  fill: var(--carb);
+}
+
+.plate .seg-rest {
+  fill: var(--rest);
+}
+
+.plate .divider {
+  fill: none;
+  stroke: var(--bg);
+  stroke-width: 4;
+}
+
+.plate .pct {
+  fill: #0b0e12;
+  font-family: var(--font-display);
+  font-size: 30px;
+}
+
+.plate .lbl {
+  fill: #0b0e12;
+  font-family: var(--font-body);
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.plate-key {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px 18px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.plate-key li {
+  display: flex;
+  gap: 10px;
+  color: var(--muted);
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+
+.plate-key strong {
+  display: block;
+  color: var(--text);
+  font-size: 0.92rem;
+}
+
+.plate-key .key-sub {
+  font-size: 0.78rem;
+}
+
+.key-dot {
+  flex: none;
+  width: 11px;
+  height: 11px;
+  margin-top: 4px;
+  border-radius: 50%;
+}
+
+.key-veg {
+  background: #3ddc97;
+}
+
+.key-carb {
+  background: #ff8a3d;
+}
+
+.key-rest {
+  background: #b9c4ce;
+}
+
+.benefits.three {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+@media (max-width: 980px) {
+  .benefits.three {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 620px) {
+  .plate-key {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+}
+
 /* ---------- En-tête de page interne ---------- */
 .page-head {
   padding-block: clamp(40px, 6vw, 72px) clamp(28px, 4vw, 44px);
@@ -1411,7 +1532,7 @@ strong {
   }
 }
 
-@media (max-width: 980px) {
+@media (max-width: 1100px) {
   .header-inner {
     flex-wrap: wrap;
     gap: 10px 20px;
@@ -1422,17 +1543,27 @@ strong {
     order: 3;
     width: 100%;
     margin-left: 0;
-    gap: 8px 12px;
+    gap: 8px 14px;
     flex-wrap: wrap;
     padding-bottom: 2px;
   }
 
   .site-nav a {
-    font-size: 0.76rem;
+    font-size: 0.8rem;
   }
 
   .controls {
     margin-left: auto;
+  }
+}
+
+@media (max-width: 860px) {
+  .site-nav {
+    gap: 8px 12px;
+  }
+
+  .site-nav a {
+    font-size: 0.76rem;
   }
 }
 

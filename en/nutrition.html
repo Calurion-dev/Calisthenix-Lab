@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nutrition — Calisthenix-Lab</title>
+  <meta name="description" content="The 50/25/25 plate: half vegetables and fruit, a quarter carbohydrates, a quarter protein and fats. A visual guide to build meals.">
+  <link rel="canonical" href="https://calurion-dev.github.io/Calisthenix-Lab/en/nutrition.html">
+  <link rel="alternate" hreflang="fr" href="https://calurion-dev.github.io/Calisthenix-Lab/alimentation.html">
+  <link rel="alternate" hreflang="en" href="https://calurion-dev.github.io/Calisthenix-Lab/en/nutrition.html">
+  <link rel="alternate" hreflang="x-default" href="https://calurion-dev.github.io/Calisthenix-Lab/alimentation.html">
+  <meta name="theme-color" content="#0b0e12">
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="../assets/fonts/archivo-black-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="../assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="../css/style.css">
+  <script>try{var t=localStorage.getItem("theme");if(t==="light"||t==="dark")document.documentElement.dataset.theme=t}catch(e){}</script>
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Calisthenix-Lab">
+  <meta property="og:title" content="Nutrition — Calisthenix-Lab">
+  <meta property="og:description" content="A simple plate: 50 % vegetables and fruit, 25 % carbohydrates, 25 % protein and fats.">
+  <meta property="og:url" content="https://calurion-dev.github.io/Calisthenix-Lab/en/nutrition.html">
+  <meta property="og:image" content="https://calurion-dev.github.io/Calisthenix-Lab/assets/img/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternate" content="fr_FR">
+  <meta name="twitter:card" content="summary_large_image">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html">
+        <span class="brand-mark" aria-hidden="true"></span>
+        Calisthenix<span class="brand-lab">-Lab</span>
+      </a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="bases.html">Fundamentals</a>
+        <a href="methods.html">Methods</a>
+        <a href="static.html">Static</a>
+        <a href="dynamic.html">Dynamic</a>
+        <a href="warm-up-stretching.html">Warm-up</a>
+        <a href="intensifications.html">Intensification</a>
+        <a href="nutrition.html" aria-current="page">Nutrition</a>
+        <a href="about.html">About</a>
+      </nav>
+      <div class="controls">
+        <div class="lang-switch" aria-label="Language">
+          <a href="../alimentation.html" hreflang="fr" lang="fr">FR</a>
+          <span aria-current="true" lang="en">EN</span>
+        </div>
+        <button class="theme-btn" type="button" data-theme-toggle
+          data-to-light="Switch to light theme" data-to-dark="Switch to dark theme"
+          aria-label="Switch to light theme" aria-pressed="false">
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="4"></circle>
+            <path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"></path>
+          </svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="wrap page-head">
+      <p class="eyebrow">Nutrition · Cross-cutting level</p>
+      <h1>One plate, three zones.</h1>
+      <p class="lede">Half for vegetables and fruit, a quarter for carbohydrates, a quarter for the rest. A visual guide to build a meal — not a prescription.</p>
+    </div>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="plate-panel">
+          <svg class="plate" viewBox="0 0 400 400" aria-hidden="true" focusable="false">
+            <circle class="rim" cx="200" cy="200" r="192"></circle>
+            <path class="seg-veg" d="M 200 200 L 30 200 A 170 170 0 0 1 370 200 Z"></path>
+            <path class="seg-carb" d="M 200 200 L 370 200 A 170 170 0 0 1 200 370 Z"></path>
+            <path class="seg-rest" d="M 200 200 L 200 370 A 170 170 0 0 1 30 200 Z"></path>
+            <path class="divider" d="M 30 200 H 370 M 200 200 V 370"></path>
+            <text class="pct" x="200" y="120" text-anchor="middle">50 %</text>
+            <text class="lbl" x="200" y="150" text-anchor="middle">Vegetables &amp; fruit</text>
+            <text class="pct" x="285" y="268" text-anchor="middle">25 %</text>
+            <text class="lbl" x="285" y="298" text-anchor="middle">Carbs</text>
+            <text class="pct" x="115" y="268" text-anchor="middle">25 %</text>
+            <text class="lbl" x="115" y="298" text-anchor="middle">The rest</text>
+          </svg>
+          <ul class="plate-key">
+            <li><span class="key-dot key-veg" aria-hidden="true"></span><span><strong>50 %</strong>Vegetables &amp; fruit</span></li>
+            <li><span class="key-dot key-carb" aria-hidden="true"></span><span><strong>25 %</strong>Carbohydrates</span></li>
+            <li><span class="key-dot key-rest" aria-hidden="true"></span><span><strong>25 %</strong>The rest<br><span class="key-sub">protein &amp; fats</span></span></li>
+          </ul>
+        </div>
+
+        <div class="prose">
+          <p>The plate is not a diet. It is a visual starting point: it avoids counting every calorie and reminds you of the proportions of a complete meal. Exact amounts depend on your weight, activity and goals — the plate gives structure, not gram-level precision.</p>
+        </div>
+
+        <div class="benefits three">
+          <article class="benefit">
+            <h3>50 % — Vegetables &amp; fruit</h3>
+            <p>They bring volume, fibre, vitamins and minerals. Raw or cooked, fresh or frozen: half the plate at every main meal. Vary colours and cooking methods.</p>
+          </article>
+          <article class="benefit">
+            <h3>25 % — Carbohydrates</h3>
+            <p>Rice, pasta, potatoes, bread, oats, legumes. The portion adapts to load: larger on training days, smaller on rest days.</p>
+          </article>
+          <article class="benefit">
+            <h3>25 % — The rest</h3>
+            <p>Protein (eggs, fish, meat, tofu, legumes) and fats (oil, nuts, avocado). A protein source at every meal, a little fat for taste and satiety.</p>
+          </article>
+        </div>
+
+        <div class="section-head section-sub">
+          <p class="eyebrow">In practice</p>
+          <h2>Three markers.</h2>
+        </div>
+
+        <div class="prose">
+          <ul>
+            <li><strong>One plate = one main meal.</strong> No need to weigh: proportions are enough for most meals.</li>
+            <li><strong>Carbs are the dial.</strong> Increase the portion around training, reduce it if you move little.</li>
+            <li><strong>Water as the default drink.</strong> No supplement replaces a complete plate.</li>
+          </ul>
+        </div>
+
+        <div class="notice">
+          <p><b>This is not medical advice</b>This is a general guide. It does not replace medical or dietetic advice. If you have a condition, an eating disorder, are pregnant or have specific athletic needs, consult a professional.</p>
+        </div>
+
+        <div class="next">
+          <p>A plate does not replace a session.</p>
+          <a class="btn btn-ghost" href="bases.html">Review the five movements</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="index.html">
+            <span class="brand-mark" aria-hidden="true"></span>
+            Calisthenix<span class="brand-lab">-Lab</span>
+          </a>
+          <p>Understand calisthenics, then practise it. An educational site with no account and no cookies.</p>
+        </div>
+        <nav class="footer-nav" aria-label="Footer links">
+          <a href="bases.html">The fundamentals</a>
+          <a href="methods.html">Methods</a>
+          <a href="static.html">Static</a>
+          <a href="dynamic.html">Dynamic</a>
+          <a href="warm-up-stretching.html">Warm-up &amp; stretching</a>
+          <a href="intensifications.html">Intensification</a>
+          <a href="nutrition.html">Nutrition</a>
+          <a href="about.html">About</a>
+          <a href="../sitemap.xml">Sitemap</a>
+        </nav>
+        <div class="footer-note">
+          <strong>Health.</strong> Calisthenix-Lab provides general information. It is not medical advice or personalised coaching. If you feel pain, have an injury or are unsure, consult a healthcare professional.
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Calisthenix-Lab. Original content.</span>
+        <span>Static site · FR / EN · No cookies</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js" defer></script>
+</body>
+</html>
