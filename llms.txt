@@ -8,7 +8,7 @@
 - [Les bases / Fundamentals](https://calurion-dev.github.io/Calisthenix-Lab/bases.html): cinq fiches techniques (pompes, tractions, dips, pistol squat, gainage).
 - [Méthodes / Methods](https://calurion-dev.github.io/Calisthenix-Lab/methodes.html): neuf méthodes d'entraînement (circuits, rep & set, GTG, push / pull, street lifting, endurance, freestyle, EMOM, pyramide).
 - [Statique / Static](https://calurion-dev.github.io/Calisthenix-Lab/statique.html): L-sit, planche, front lever — guides complets : prérequis, muscles, progressions, erreurs, sécurité, fréquence.
-- [Dynamique / Dynamic](https://calurion-dev.github.io/Calisthenix-Lab/dynamique.html): muscle-up, handstand, transitions — teasing V3.
+- [Dynamique / Dynamic](https://calurion-dev.github.io/Calisthenix-Lab/dynamique.html): muscle-up, handstand, transitions — guides complets (prérequis, muscles, progressions, erreurs, sécurité, fréquence).
 - [Intensifications / Intensification](https://calurion-dev.github.io/Calisthenix-Lab/intensifications.html): dégressif, tempo, pause / hold et temps de repos — quand les appliquer.
 - [Alimentation / Nutrition](https://calurion-dev.github.io/Calisthenix-Lab/alimentation.html): l'assiette 50 % légumes et fruits, 25 % glucides, 25 % protéines et lipides.
 - [À propos / About](https://calurion-dev.github.io/Calisthenix-Lab/a-propos.html): intention, disclaimer santé, crédits, mentions légales.
