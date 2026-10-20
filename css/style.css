@@ -1634,3 +1634,249 @@ strong {
     scroll-behavior: auto !important;
   }
 }
+
+
+/* ---------- Guides statiques ---------- */
+.exercise.single {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.exercise.single .exercise-head .chip {
+  margin-left: auto;
+}
+
+.skill-body {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(18px, 3vw, 32px);
+  margin-top: 18px;
+}
+
+.skill-col {
+  min-width: 0;
+}
+
+.skill-body .subhead:first-child {
+  margin-top: 0;
+}
+
+.skill-body p:not(.passage):not(.safety) {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.checks {
+  display: grid;
+  gap: 6px;
+  margin: 0 0 4px;
+  padding: 0;
+  list-style: none;
+}
+
+.checks li {
+  position: relative;
+  padding-left: 20px;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.checks li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: var(--accent-2);
+  font-weight: 700;
+}
+
+.passage {
+  margin: 10px 0 16px;
+  padding: 10px 12px;
+  border-left: 2px solid var(--accent-2);
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+@media (max-width: 760px) {
+  .skill-body {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 4px;
+  }
+
+  .skill-col + .skill-col {
+    margin-top: 8px;
+    padding-top: 16px;
+    border-top: 1px solid var(--edge);
+  }
+}
+
+/* ---------- Impression ---------- */
+@media print {
+  html {
+    --bg: #fff !important;
+    --panel: #fff !important;
+    --edge: #b8b8b8 !important;
+    --text: #000 !important;
+    --muted: #222 !important;
+    --accent: #000 !important;
+    --accent-ink: #000 !important;
+    --accent-2: #000 !important;
+  }
+
+  @page {
+    margin: 14mm;
+  }
+
+  body {
+    background: #fff !important;
+    color: #000 !important;
+    font-size: 11pt;
+  }
+
+  .skip-link,
+  .site-header,
+  .site-footer,
+  .controls,
+  .next {
+    display: none !important;
+  }
+
+  .wrap {
+    width: 100%;
+    max-width: none;
+    padding: 0;
+  }
+
+  .section {
+    padding: 0;
+    border: 0;
+  }
+
+  .page-head {
+    padding: 0 0 8mm;
+  }
+
+  .page-head h1 {
+    font-size: 24pt;
+  }
+
+  a {
+    color: #000 !important;
+    text-decoration: none;
+  }
+
+  .exercise {
+    grid-template-columns: 1fr !important;
+    break-inside: avoid;
+    page-break-inside: avoid;
+    border: 1px solid #999;
+    background: #fff;
+    box-shadow: none;
+  }
+
+  .exercise.single {
+    grid-template-columns: 1fr !important;
+  }
+
+  .exercise + .exercise {
+    margin-top: 8mm;
+  }
+
+  .exercise .plate {
+    max-width: 70mm;
+    margin: 0 auto 4mm;
+    border-color: #999;
+    background: #fff;
+  }
+
+  .plate figcaption {
+    border-top-color: #999;
+    color: #000;
+  }
+
+  .plate figcaption b {
+    color: #000;
+  }
+
+  .plate::after {
+    border-color: rgba(0, 0, 0, 0.15);
+  }
+
+  .exercise-figure img {
+    filter: grayscale(1) invert(1);
+  }
+
+  .skill-body {
+    grid-template-columns: 1fr !important;
+  }
+
+  .skill-col + .skill-col {
+    margin-top: 4mm;
+    padding-top: 4mm;
+    border-top: 1px solid #bbb;
+  }
+
+  .chip {
+    border: 1px solid #999;
+    background: transparent !important;
+    color: #000 !important;
+  }
+
+  .spec div {
+    border-color: #bbb !important;
+  }
+
+  .notice {
+    border: 1px solid #999 !important;
+    background: #fff !important;
+  }
+
+  .notice b,
+  .subhead,
+  .exercise h2,
+  .exercise-num,
+  .passage,
+  .checks li::before,
+  .errors li::before {
+    color: #000 !important;
+  }
+
+  .passage {
+    border-left-color: #000 !important;
+  }
+
+  .plate-panel,
+  .method,
+  .benefit,
+  .def {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  .prose p,
+  .spec dd,
+  .spec dt,
+  li {
+    orphans: 3;
+    widows: 3;
+  }
+
+  h1,
+  h2,
+  h3 {
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+
+  img,
+  svg {
+    max-width: 100%;
+  }
+
+  body::after {
+    content: "Calisthenix-Lab · Information générale / General information — pas un avis médical / not medical advice.";
+    display: block;
+    margin-top: 8mm;
+    color: #555;
+    font-size: 8pt;
+  }
+}
