@@ -91,98 +91,71 @@
           <h2>Nine items, three levels.</h2>
         </div>
 
-        <div class="gear-grid">
-
-          <article class="gear">
-            <div class="gear-head"><h3>Pull-up bar</h3><span class="lvl lvl-yes">Essential</span></div>
-            <p>The best first purchase. A solid bar at the right height is enough for pull-ups and much of the bar work.</p>
-            <ul class="gear-levels">
-              <li><span>Beginner</span><b class="lvl lvl-yes">Essential</b></li>
-              <li><span>Intermediate</span><b class="lvl lvl-yes">Essential</b></li>
-              <li><span>Advanced</span><b class="lvl lvl-yes">Essential</b></li>
-            </ul>
-          </article>
-
-          <article class="gear">
-            <div class="gear-head"><h3>Dip bars</h3><span class="lvl lvl-yes">Essential</span></div>
-            <p>They complement the pull-up bar: dips, support holds, shoulder work and street workout skills. With the bar, they are the base.</p>
-            <ul class="gear-levels">
-              <li><span>Beginner</span><b class="lvl lvl-yes">Essential</b></li>
-              <li><span>Intermediate</span><b class="lvl lvl-yes">Essential</b></li>
-              <li><span>Advanced</span><b class="lvl lvl-yes">Essential</b></li>
-            </ul>
-          </article>
-
-          <article class="gear">
-            <div class="gear-head"><h3>Rings</h3><span class="lvl lvl-use">Useful</span></div>
-            <p>Almost every exercise, little space, a reasonable price. A great versatile purchase, provided you have a solid anchor point.</p>
-            <ul class="gear-levels">
-              <li><span>Beginner</span><b class="lvl lvl-use">Useful</b></li>
-              <li><span>Intermediate</span><b class="lvl lvl-use">Useful</b></li>
-              <li><span>Advanced</span><b class="lvl lvl-use">Useful</b></li>
-            </ul>
-          </article>
-
-          <article class="gear">
-            <div class="gear-head"><h3>Chalk</h3><span class="lvl lvl-use">Useful</span></div>
-            <p>More effective than grip for many practitioners. Useful once sweat becomes a problem; you can do without it at first.</p>
-            <ul class="gear-levels">
-              <li><span>Beginner</span><b class="lvl lvl-opt">Optional</b></li>
-              <li><span>Intermediate</span><b class="lvl lvl-use">Useful</b></li>
-              <li><span>Advanced</span><b class="lvl lvl-use">Useful</b></li>
-            </ul>
-          </article>
-
-          <article class="gear">
-            <div class="gear-head"><h3>Resistance bands</h3><span class="lvl lvl-opt">As needed</span></div>
-            <p>Useful if they are thick and you lack strength at the start: assisted pull-ups, assisted dips. Otherwise they end up in a drawer.</p>
-            <ul class="gear-levels">
-              <li><span>Beginner</span><b class="lvl lvl-opt">As needed</b></li>
-              <li><span>Intermediate</span><b class="lvl lvl-opt">Optional</b></li>
-              <li><span>Advanced</span><b class="lvl lvl-opt">Optional</b></li>
-            </ul>
-          </article>
-
-          <article class="gear">
-            <div class="gear-head"><h3>Dipping belt</h3><span class="lvl lvl-use">Useful</span></div>
-            <p>Excellent for adding load to pull-ups and dips. Interesting once you reach a certain number of reps, not at the start.</p>
-            <ul class="gear-levels">
-              <li><span>Beginner</span><b class="lvl lvl-later">Later</b></li>
-              <li><span>Intermediate</span><b class="lvl lvl-use">Useful</b></li>
-              <li><span>Advanced</span><b class="lvl lvl-use">Useful</b></li>
-            </ul>
-          </article>
-
-          <article class="gear">
-            <div class="gear-head"><h3>Grip</h3><span class="lvl lvl-no">Not useful</span></div>
-            <p>Not useful at first, unless your hands sweat a lot. Chalk is generally more effective.</p>
-            <ul class="gear-levels">
-              <li><span>Beginner</span><b class="lvl lvl-no">Not useful</b></li>
-              <li><span>Intermediate</span><b class="lvl lvl-opt">Optional</b></li>
-              <li><span>Advanced</span><b class="lvl lvl-opt">Optional</b></li>
-            </ul>
-          </article>
-
-          <article class="gear">
-            <div class="gear-head"><h3>Weighted vest</h3><span class="lvl lvl-no">Not useful</span></div>
-            <p>Not the best investment to start: bodyweight is enough. Later, it can complement weighted work.</p>
-            <ul class="gear-levels">
-              <li><span>Beginner</span><b class="lvl lvl-no">Not useful</b></li>
-              <li><span>Intermediate</span><b class="lvl lvl-opt">Optional</b></li>
-              <li><span>Advanced</span><b class="lvl lvl-opt">Optional</b></li>
-            </ul>
-          </article>
-
-          <article class="gear">
-            <div class="gear-head"><h3>Parallettes</h3><span class="lvl lvl-no">Not useful</span></div>
-            <p>Useless for a beginner. They become interesting if you train the planche or specific supports.</p>
-            <ul class="gear-levels">
-              <li><span>Beginner</span><b class="lvl lvl-no">Not useful</b></li>
-              <li><span>Intermediate</span><b class="lvl lvl-opt">If planche</b></li>
-              <li><span>Advanced</span><b class="lvl lvl-opt">If planche</b></li>
-            </ul>
-          </article>
-
+        <p class="table-hint">Scroll the table to compare all three levels.</p>
+        <div class="gear-table-wrap" role="region" aria-label="Equipment sheet by level" tabindex="0">
+          <table class="gear-table">
+            <caption class="sr-only">Equipment usefulness by level</caption>
+            <colgroup><col class="gear-col-name"><col><col><col></colgroup>
+            <thead>
+              <tr><th scope="col">Equipment</th><th scope="col">Beginner</th><th scope="col">Intermediate</th><th scope="col">Advanced</th></tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row"><span class="gear-name">Pull-up bar</span><span class="gear-note">The best first purchase. A solid bar at the right height is enough for pull-ups and much of the bar work.</span></th>
+                <td><span class="lvl lvl-yes">Essential</span></td>
+                <td><span class="lvl lvl-yes">Essential</span></td>
+                <td><span class="lvl lvl-yes">Essential</span></td>
+              </tr>
+              <tr>
+                <th scope="row"><span class="gear-name">Dip bars</span><span class="gear-note">They complement the pull-up bar: dips, support holds, shoulder work and street workout skills. With the bar, they are the base.</span></th>
+                <td><span class="lvl lvl-yes">Essential</span></td>
+                <td><span class="lvl lvl-yes">Essential</span></td>
+                <td><span class="lvl lvl-yes">Essential</span></td>
+              </tr>
+              <tr>
+                <th scope="row"><span class="gear-name">Rings</span><span class="gear-note">Almost every exercise, little space, a reasonable price. A great versatile purchase, provided you have a solid anchor point.</span></th>
+                <td><span class="lvl lvl-use">Useful</span></td>
+                <td><span class="lvl lvl-use">Useful</span></td>
+                <td><span class="lvl lvl-use">Useful</span></td>
+              </tr>
+              <tr>
+                <th scope="row"><span class="gear-name">Chalk</span><span class="gear-note">More effective than grip for many practitioners. Useful once sweat becomes a problem; you can do without it at first.</span></th>
+                <td><span class="lvl lvl-opt">Optional</span></td>
+                <td><span class="lvl lvl-use">Useful</span></td>
+                <td><span class="lvl lvl-use">Useful</span></td>
+              </tr>
+              <tr>
+                <th scope="row"><span class="gear-name">Resistance bands</span><span class="gear-note">Useful if they are thick and you lack strength at the start: assisted pull-ups, assisted dips. Otherwise they end up in a drawer.</span></th>
+                <td><span class="lvl lvl-opt">As needed</span></td>
+                <td><span class="lvl lvl-opt">Optional</span></td>
+                <td><span class="lvl lvl-opt">Optional</span></td>
+              </tr>
+              <tr>
+                <th scope="row"><span class="gear-name">Dipping belt</span><span class="gear-note">Excellent for adding load to pull-ups and dips. Interesting once you reach a certain number of reps, not at the start.</span></th>
+                <td><span class="lvl lvl-later">Later</span></td>
+                <td><span class="lvl lvl-use">Useful</span></td>
+                <td><span class="lvl lvl-use">Useful</span></td>
+              </tr>
+              <tr>
+                <th scope="row"><span class="gear-name">Grip</span><span class="gear-note">Not useful at first, unless your hands sweat a lot. Chalk is generally more effective.</span></th>
+                <td><span class="lvl lvl-no">Not useful</span></td>
+                <td><span class="lvl lvl-opt">Optional</span></td>
+                <td><span class="lvl lvl-opt">Optional</span></td>
+              </tr>
+              <tr>
+                <th scope="row"><span class="gear-name">Weighted vest</span><span class="gear-note">Not the best investment to start: bodyweight is enough. Later, it can complement weighted work.</span></th>
+                <td><span class="lvl lvl-no">Not useful</span></td>
+                <td><span class="lvl lvl-opt">Optional</span></td>
+                <td><span class="lvl lvl-opt">Optional</span></td>
+              </tr>
+              <tr>
+                <th scope="row"><span class="gear-name">Parallettes</span><span class="gear-note">Useless for a beginner. They become interesting if you train the planche or specific supports.</span></th>
+                <td><span class="lvl lvl-no">Not useful</span></td>
+                <td><span class="lvl lvl-opt">If planche</span></td>
+                <td><span class="lvl lvl-opt">If planche</span></td>
+              </tr>
+            </tbody>
+          </table>
         </div>
 
         <div class="section-head section-sub">
